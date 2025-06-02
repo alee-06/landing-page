@@ -52,9 +52,15 @@ a{
     gap: 50px;
 }
 
+.content img{
+    max-width: 100%;
+    height: auto;
+    flex-shrink: 1;
+}
+
 .hero{
     text-align: left;
-    max-width: 550px;
+    max-width: 500px;
     width: 100%;
 }
 
@@ -80,6 +86,7 @@ button{
     padding: 6px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 
 footer{
@@ -125,5 +132,28 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width:200px;
+    min-width:auto;
+    min-height:auto;
+}
+
+.section3{
+    background-color: #E5E7EB;
+    min-height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    display: flex;
+    font-size: 36px;
+    font-weight: lighter;
+    color:#1F2937;
+    max-width: 700px;
+}
+
+.author{
+    font-weight: 700;
+    text-align: end;
 }
