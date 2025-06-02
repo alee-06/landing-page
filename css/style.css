@@ -7,8 +7,9 @@ body{
     height:100vh;
     background-color: #1F2937; 
 }
+
 .section1{
-    min-height: 100vh;
+    min-height: 50vh;
     padding: 0 20px;
     max-width: 1200px;
     margin: 0 auto;
@@ -89,7 +90,8 @@ footer{
 
 .section2{
     background-color: white;
-    min-height: 100vh;
+    min-height: 50vh;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
@@ -101,15 +103,22 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 40px;
 }
 
 .info-box{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    max-width: 1000px;
+    gap:32px;
 }
 
-.img{
+.box{
+    border: 3px #3882F6 solid;
+    border-radius: 8px;
+    padding: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
