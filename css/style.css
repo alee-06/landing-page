@@ -8,6 +8,7 @@ body{
     background-color: #1F2937; 
 }
 .section1{
+    min-height: 100vh;
     padding: 0 20px;
     max-width: 1200px;
     margin: 0 auto;
@@ -88,11 +89,22 @@ footer{
 
 .section2{
     background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .info-header{
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
