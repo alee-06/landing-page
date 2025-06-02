@@ -78,7 +78,6 @@ a{
     margin: 10px 0;
 }
 
-
 button{
     background-color: #3882F6;
     color: #F9FAF8;
@@ -151,6 +150,7 @@ footer{
     font-weight: lighter;
     color:#1F2937;
     max-width: 700px;
+    font-style: italic;
 }
 
 .author{
