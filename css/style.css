@@ -4,7 +4,7 @@ html,body{
 
 body{
     font-family: Roboto,Arial, Helvetica, sans-serif;
-    min-height:100vh;
+    height:100vh;
     background-color: #1F2937; 
 }
 .section1{
@@ -64,6 +64,7 @@ a{
     font-size: 18px;
     color: #E5E7EB;
 }
+
 .hero-text{
     margin: 10px 0;
 }
@@ -83,4 +84,15 @@ footer{
     border: red solid;
     justify-content: center;
     align-items: center;
+}
+
+.section2{
+    background-color: white;
+}
+
+.info-header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
 }
